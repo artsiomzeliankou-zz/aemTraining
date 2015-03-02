@@ -3,7 +3,10 @@
 
 <body>
 
-    <cq:include path="navigation" resourceType="aemTraining/components/general/navigation"/>
-    <cq:include path="content-par" resourceType="foundation/components/parsys" />
-
+    <div>
+        <cq:include path="navigation" resourceType="aemTraining/components/general/navigation"/>
+    </div>
+    <div class="content-par">
+    	<cq:include path="content-par" resourceType="foundation/components/parsys" />
+    </div>
 </body>
