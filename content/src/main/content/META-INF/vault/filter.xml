@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/etc/designs/aemTraining" />
+    <filter root="/etc/clientlibs/cq.wcm.edit.custom" />
+    <filter root="/apps/aemTraining" />
+</workspaceFilter>

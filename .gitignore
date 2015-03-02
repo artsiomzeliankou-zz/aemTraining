@@ -6,6 +6,7 @@ target
 .pmd
 .ruleset
 .springBeans
+.classpath
 eclipsebin
 
 .class
@@ -23,6 +24,7 @@ gensrc
 *.swp
 *~
 *.orig
+*.classpath
 
 classes
 testclasses

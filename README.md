@@ -1,4 +1,4 @@
-# aemTrainingEpam Training Demo Site
+aemTraining
 ========
 
 This a content package project generated using the multimodule-content-package-archetype.
@@ -22,7 +22,6 @@ To use vlt with this project, first build and install the package to your local 
 Once the working copy is created, you can use the normal ``vlt up`` and ``vlt ci`` commands.
 
 Specifying CRX Host/Port
-
 ------------------------
 
 The CRX host and port can be specified on the command line with:

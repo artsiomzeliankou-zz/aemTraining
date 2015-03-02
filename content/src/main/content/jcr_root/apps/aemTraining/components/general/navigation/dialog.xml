@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <news
+            jcr:primaryType="cq:Widget"
+            title="News"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <root-path
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Root path"
+                    name="./newsRootPath"
+                    xtype="pathfield"/>
+                <second-level-menu
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Second level menu"
+                    name="./newsSubTabs"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="nt:unstructured"
+                        plugins="customRootPathPlugin"
+                        xtype="pathfield"/>
+                </second-level-menu>
+            </items>
+        </news>
+        <events
+            jcr:primaryType="cq:Widget"
+            title="Events"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <root-path
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Root path"
+                    name="./eventsRootPath"
+                    xtype="pathfield"/>
+                <second-level-menu
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Second level menu"
+                    name="./eventsSubTabs"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="nt:unstructured"
+                        plugins="customRootPathPlugin"
+                        xtype="pathfield"/>
+                </second-level-menu>
+            </items>
+        </events>
+        <communities
+            jcr:primaryType="cq:Widget"
+            title="Communities"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <root-path
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Root path"
+                    name="./communitiesRootPath"
+                    xtype="pathfield"/>
+                <second-level-menu
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Second level menu"
+                    name="./communitiesSubTabs"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="nt:unstructured"
+                        plugins="customRootPathPlugin"
+                        xtype="pathfield"/>
+                </second-level-menu>
+            </items>
+        </communities>
+        <toolkit
+            jcr:primaryType="cq:Widget"
+            title="Toolkit"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <root-path
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Root path"
+                    name="./toolkitRootPath"
+                    xtype="pathfield"/>
+                <second-level-menu
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Second level menu"
+                    name="./toolkitSubTabs"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="nt:unstructured"
+                        plugins="customRootPathPlugin"
+                        xtype="pathfield"/>
+                </second-level-menu>
+            </items>
+        </toolkit>
+        <media
+            jcr:primaryType="cq:Widget"
+            title="Media"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <root-path
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Root path"
+                    name="./mediaRootPath"
+                    xtype="pathfield"/>
+                <second-level-menu
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Second level menu"
+                    name="./mediaSubTabs"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="nt:unstructured"
+                        plugins="customRootPathPlugin"
+                        xtype="pathfield"/>
+                </second-level-menu>
+            </items>
+        </media>
+        <company
+            jcr:primaryType="cq:Widget"
+            title="Company"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <root-path
+                    jcr:primaryType="nt:unstructured"
+                    fieldLabel="Root path"
+                    name="./companyRootPath"
+                    xtype="pathfield"/>
+                <second-level-menu
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Second level menu"
+                    name="./companySubTabs"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="nt:unstructured"
+                        plugins="customRootPathPlugin"
+                        xtype="pathfield"/>
+                </second-level-menu>
+            </items>
+        </company>
+    </items>
+</jcr:root>
