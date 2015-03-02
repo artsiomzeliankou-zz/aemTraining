@@ -15,6 +15,7 @@
 				
 				if(a.hasClass("logo_from_header")){
 					li.next().addClass("current");
+                    li.next().find(".notarrow").removeClass("notarrow").addClass("arrow");
                 }
 					
          		ev.preventDefault();	//disable redirect 
