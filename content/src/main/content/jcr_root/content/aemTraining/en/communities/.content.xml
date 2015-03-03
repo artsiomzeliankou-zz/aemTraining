@@ -4,10 +4,8 @@
     <jcr:content
         cq:designPath="/etc/designs/aemTraining"
         jcr:primaryType="cq:PageContent"
-        jcr:title="communities"
+        jcr:title="Communities"
         sling:resourceType="aemTraining/components/page/contentpage"
-        navTitle="COMMUNITIES"/>
-    <my_subsriptions/>
-    <all_updates/>
-    <list_of_communities/>
+        subtitle="COMMUNITIES"/>
+   </jcr:content>
 </jcr:root>

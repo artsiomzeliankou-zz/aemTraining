@@ -1,50 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:designPath="/etc/designs/geometrixx-media"
-        cq:lastModified="{Date}2013-04-09T10:30:23.817-07:00"
-        cq:lastModifiedBy="admin"
-        cq:template="/apps/geometrixx-media/templates/community-page"
+        cq:designPath="/etc/designs/aemTraining"
         jcr:primaryType="cq:PageContent"
         jcr:title="Media"
-        sling:resourceType="geometrixx-media/components/page/community"
-        navTitle="MEDIA">
-        <grid-8-par
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="foundation/components/parsys">
-            <forum
-                jcr:created="{Date}2013-04-09T10:30:15.963-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2013-04-09T10:30:15.963-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="geometrixx-media/components/social/forum/components/forum"/>
-        </grid-8-par>
-        <grid-4-par
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="foundation/components/parsys">
-            <section_header
-                jcr:created="{Date}2013-04-09T10:30:23.816-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2013-04-09T10:30:23.816-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="geometrixx-media/components/section-header"
-                headerSize="h3"
-                sectionHeaderText="gossip"/>
-            <popular_articles
-                jcr:created="{Date}2013-04-09T10:30:23.816-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2013-04-09T10:30:23.816-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="geometrixx-media/components/popular-articles"/>
-        </grid-4-par>
-    </jcr:content>
-    <all/>
-    <official/>
-    <parties_x0026_fun/>
-    <sports/>
-    <wallpapers/>
+        sling:resourceType="aemTraining/components/page/contentpage"
+        subtitle="MEDIA"/>
+   </jcr:content>
 </jcr:root>

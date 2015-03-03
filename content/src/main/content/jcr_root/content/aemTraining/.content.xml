@@ -4,9 +4,7 @@
     <jcr:content
         cq:allowedTemplates="[/apps/aemTraining/templates/.*]"
         cq:designPath="/etc/designs/aemTraining"
-        cq:lastModified="{Date}2012-06-26T17:47:06.361+02:00"
-        cq:lastModifiedBy="admin"
-        cq:template="/apps/aemTraining/templates/component-page"
+        cq:template="/apps/aemTraining/templates/contentpage"
         jcr:primaryType="cq:PageContent"
         jcr:title="AEM Training"
         sling:redirect="{Boolean}true"
