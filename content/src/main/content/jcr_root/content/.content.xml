@@ -3,6 +3,7 @@
     jcr:mixinTypes="[mix:lockable,rep:AccessControllable,sling:Redirect]"
     jcr:primaryType="sling:OrderedFolder"
     sling:resourceType="sling:redirect"
+    sling:target="/geohome">
     <catalogs/>
     <campaigns/>
     <dam/>
@@ -17,6 +18,5 @@
     <mac/>
     <geometrixx/>
     <geometrixx_mobile/>
-    <aemTraining/>
-    <test2/>
+    <aemtraining/>
 </jcr:root>

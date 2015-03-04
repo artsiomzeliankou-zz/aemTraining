@@ -33,7 +33,7 @@ if(resource.adaptTo(Node.class)!=null){
                   for (int i=0;i<tokens.length;i++) {
                       String path = tokens[i];
                       String title =  path.substring(path.lastIndexOf("/") +1);
-					%> <li> <a href="<%= path %>"> <%= title %> </a> </li> <%
+					%> <li> <a href="<%= path %>.html"> <%= title %> </a> </li> <%
                   }	
             }         
          }

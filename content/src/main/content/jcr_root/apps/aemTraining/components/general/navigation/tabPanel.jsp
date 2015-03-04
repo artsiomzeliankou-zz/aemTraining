@@ -20,7 +20,7 @@ if(resource.adaptTo(Node.class)!=null){
                 String tabName = propName.substring(0, propName.length() - tabSuffix.length());
 
                  %> <li class="list_item_first_level">
-						<a href="<%= propValue %>">  <%= tabName %> </a>
+						<a href="<%= propValue %>.html">  <%= tabName %> </a>
 						<div class="notarrow"></div>
 					</li>
 <%

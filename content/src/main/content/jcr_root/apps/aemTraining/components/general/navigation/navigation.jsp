@@ -1,5 +1,5 @@
 <%@include file="/libs/foundation/global.jsp"%>
-<%@page session="false" %>
+<%@page session="false"%>
 
 <div id="header">
 	<div class="navigation_wrapper">
@@ -22,7 +22,7 @@
                 </ul>
 			</div>
 		</div>
-	</div>			
+	</div>
 </div>
 
 
